@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 50px;
+  margin: 2% auto;
+  align-items: center;
+  background-color: #dedede;
+  .logo {
+    margin-left: 20px;
+    & a {
+      text-decoration: none;
+      color: #000;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+  .header-links {
+    margin-right: 20px;
+    & ul {
+      display: flex;
+      justify-content: space-around;
+      & li {
+        padding: 15px 30px;
+        list-style: none;
+        & a {
+          text-decoration: none;
+          color: #000;
+          font-size: 20px;
+        }
+        & a:hover {
+          color: orange;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
